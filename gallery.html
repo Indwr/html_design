@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!-- meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Innovator Point</title>
+	<link rel="canonical" href="https://www.innovatorpoint.com/gallery.html" />
+ <style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+.btn:hover {
+  background-color: #ddd;
+}
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>    <!-- CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="topBg" id="home">
+        <nav class="navbar navbar-expand-lg siteHeader fixed-top" id="stickyMenu">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo" width="220"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="assets/img/menu-icon.svg" alt="menu-icon" width="30">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav siteMenu ms-auto" id="menuCloseIcon">
+                        <div id="menuCloseIcon" class="d-flex justify-content-between my-2 mb-4 d-lg-none">
+                            <div class="mobileLogo">
+                                <img src="assets/img/logo.png" alt="" loading="lazy">
+                            </div>
+                            <div id="">
+                                <img src="assets/img/menu-close.svg" alt="" loading="lazy">
+                            </div>
+                        </div>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Project</a>
+                        </li>
+                       <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Testimonial</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a href="/" class="btn outlineBtn" type="submit">Contact Us</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>Image Grid</h1>
+  <p>Click on the buttons to change the grid view.</p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+</div>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="assets/img/1.jpg" style="width:100%">
+    <img src="assets/img/2.jpg" style="width:100%">
+    <img src="assets/img/3.jpg" style="width:100%">
+    <img src="assets/img/4.jpg" style="width:100%">
+    <img src="assets/img/5.jpg" style="width:100%">
+    <img src="assets/img/6.jpg" style="width:100%">
+    <img src="assets/img/7.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="assets/img/8.jpg" style="width:100%">
+    <img src="assets/img/9.jpg" style="width:100%">
+    <img src="assets/img/10.jpg" style="width:100%">
+    <img src="assets/img/11.jpg" style="width:100%">
+    <img src="assets/img/12.jpg" style="width:100%">
+    <img src="assets/img/13.jpg" style="width:100%">
+    <img src="assets/img/19.jpg" style="width:100%">
+    <img src="assets/img/20.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="assets/img/14.jpg" style="width:100%">
+    <img src="assets/img/15.jpg" style="width:100%">
+    <img src="assets/img/16.jpg" style="width:100%">
+    <img src="assets/img/17.jpg" style="width:100%">
+    <img src="assets/img/18.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="assets/img/21.jpg" style="width:100%">
+    <img src="assets/img/22.jpg" style="width:100%">
+    <img src="assets/img/2.jpg" style="width:100%">
+    <img src="assets/img/4.jpg" style="width:100%">
+    <img src="assets/img/1.jpg" style="width:100%">
+    <img src="assets/img/5.jpg" style="width:100%">
+  </div>
+</div>
+ <script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+// Declare a loop variable
+var i;
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<div class="content">
+  <!-- <div class="row container d-flex justify-content-center" style=" max-width: 100%">
+    <div class="col-12 p-0 text-center">
+    <img src="assets/img/9.jpeg" style="
+    height: 500px;
+    width: 900px;
+"></div>
+  </div>
+    <div class="row container d-flex justify-content-center"  style=" max-width: 100%">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img src="assets/img/1.jpeg" style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/4.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/7.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/11.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/15.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/10.jpeg"  style="border-radius: 10px;" class="my-4">
+      </div>
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+       <img src="assets/img/2.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/5.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/8.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/12.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/3.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/16.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/20.jpeg"  style="border-radius: 10px;" class="my-4">
+          <img src="assets/img/19.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/22.jpeg"  style="border-radius: 10px;" class="my-4">
+      </div>
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+       <img src="assets/img/3.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/6.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/13.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/17.jpeg"  style="border-radius: 10px;" class="my-4">
+           <img src="assets/img/21.jpeg"  style="border-radius: 10px;" class="my-4">
+          <img src="assets/img/18.jpeg"  style="border-radius: 10px;" class="my-4">
+      </div>
+    </div>
+</div>-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footerWidget">
+                        <img src="assets/img/logo.png" alt="footer-logo" width="148">
+                        <p class="descriptionText">We develop user friendly apps for both Android and iOS devices. We
+                            keep in mind while developing apps that they are bug free , scalable and upgradable for
+                            future.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footerWidget widgetRight">
+                        <h3>Lets Talk! <span> <img src="assets/img/send-icon.svg" alt="sendIcon" width="30" height="30"></span></h3>
+                        <p class="descriptionText">We are always open to discuss your project, improve your online
+                            presence and help for listing your projects on exchange.</p>
+                        <ul class="footerSocial d-flex align-items-center">
+                            <li><a href="https://www.facebook.com/InnovatorPoint?mibextid=ZbWKwL" target="_blank"><img src="assets/img/facebook.svg" alt="facebook-icon"></a></li>
+                            <li><a href="https://twitter.com/iPoint_Official?t=NMKARVDbCNDZep-umdzcCA&amp;s=08" target="_blank"><img src="assets/img/twittre.svg" alt="twittre-icon"></a></li>
+                            <li><a href="https://www.instagram.com/innovatorpoint/" target="_blank"><img src="assets/img/instagram.svg" alt="instagram-icon"></a></li>
+                            <li><a href="https://www.linkedin.com/in/vikramdeep-rewala-447813152/" target="_blank"><img src="assets/img/linkedin.svg" alt="linkedin-icon"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footerWidget">
+                        <div class="footerContact">
+                            <div class="footerContactWidget">
+                                <p>Email me at</p>
+                                <h4>ceo@innovatorpoint.com</h4>
+                            </div>
+                            <div class="footerContactWidget">
+                                <p>Call us</p>
+                                <h4>+91 9780921219</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <p>Copyright 2022, Innovator Point</p>
+                    </div>
+                    <div class="col-md-9">
+                        <ul class="navbar-nav siteMenu">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home"><span><u>Ho</u></span>me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about"><span><u>Ab</u></span>out</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services"><span><u>Serv</u></span>ices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#project"><span><u>Pro</u></span>ject</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonial"><span><u>Testi</u></span>monial</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="backToTop">
+        <a href="#"><img src="assets/img/back-to-top.svg" alt="arrow"></a>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        const loadmore = document.querySelector('#loadmore');
+        let currentItems = 6;
+        loadmore.addEventListener('click', (e) => {
+            const elementList = [...document.querySelectorAll('.portfolioListWrap .portfolioList')];
+            for (let i = currentItems; i < currentItems + 2; i++) {
+                if (elementList[i]) {
+                    elementList[i].style.display = 'block';
+                }
+            }
+            currentItems += 2;
+            // Load more button will be hidden after list fully loaded
+            if (currentItems >= elementList.length) {
+                event.target.style.display = 'none';
+            }
+        })
+    </script>
+    <script>
+        // Testimonial Slider
+        var owl = $('.testimonialSlider').owlCarousel({
+            loop: true,
+            responsiveClass: true,
+            nav: true,
+            margin: 0,
+            autoplayTimeout: 4000,
+            smartSpeed: 400,
+            center: true,
+            navText: ['&#x1F860;', '&#129122;'],
+            responsive: {
+                0: {
+                    items: 1,
+                    stagePadding: 0,
+                },
+                575: {
+                    items: 1,
+                    stagePadding: 50,
+                },
+                768: {
+                    items: 1,
+                    stagePadding: 100,
+                },
+                1440: {
+                    items: 1,
+                    stagePadding: 300,
+                },
+                1640: {
+                    items: 1,
+                    stagePadding: 400,
+                }
+            }
+        });
+        // On Scroll Event 
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 20) {
+                document.getElementById('stickyMenu').classList.add('stickyHeader');
+            } else {
+                document.getElementById('stickyMenu').classList.remove('stickyHeader');
+            }
+            if (window.pageYOffset > 1000) {
+                document.getElementById('backToTop').classList.add('active');
+            } else {
+                document.getElementById('backToTop').classList.remove('active');
+            }
+        });
+        const div = document.getElementsByClassName('navbar-collapse')[0];
+        const addBtn = document.getElementById('menuCloseIcon');
+        addBtn.addEventListener('click', function () {
+            div.classList.remove('show');
+        })
+    </script>
+</body>
+</html>
